@@ -13,6 +13,7 @@ Night in the Woods처럼 2D 횡스크롤 이동, 역전재판/단간론파 식 �
 ## 프로젝트 구조
 
 NalPaMonProject
+
 ├── .git/                       // Git 버전 관리 폴더
 
 ├── .gitattributes              // Git LFS 추적 설정
@@ -23,6 +24,8 @@ NalPaMonProject
 
 ├── ProjectSettings/            // Unity 프로젝트 설정
 ├── Assets/                     // Unity 에셋 폴더
+
+
 │   ├── _Project                // 실제 게임 관련 폴더(메인)
 │   │   ├── Scenes             // 유니티 씬 파일들
 │   │   ├── Scripts            // 스크립트
