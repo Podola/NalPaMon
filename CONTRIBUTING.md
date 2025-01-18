@@ -53,8 +53,8 @@
 7. chore (기타 작업)
   - 설명: 빌드 작업, 패키지 관리, 설정 변경 등 코드의 기능과 직접 관련되지 않은 작업에 사용합니다.
   - 예시:
-chore: 최신 버전으로 dependencies 업데이트
-chore: 사용하지 않는 assets 정리
+    - chore: 최신 버전으로 dependencies 업데이트
+    - chore: 사용하지 않는 assets 정리
 
 ## Pull Request 규칙
 - 적절한 PR 제목과 설명을 달아주세요.
