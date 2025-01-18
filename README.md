@@ -18,7 +18,7 @@ NalPaMonProject
 Assets                      // Unity 에셋 폴더
 - _Project                  // 실제 게임 관련 폴더(메인)
     - Scenes                // 유니티 씬 파일들
-    - Scripts                // 스크립트
+    - Scripts               // 스크립트
         - Managers          // 싱글턴 GameManager, SceneManager 등
         - Player            // 플레이어 관련 (PlayerController 등)
         - NPC               // NPC 제어, AI, 대화 트리거 등
@@ -29,7 +29,7 @@ Assets                      // Unity 에셋 폴더
     - Audio                 // 사운드 (BGM, SFX)
     - Dialogue              // Yarn Spinner .yarn 파일, 대화 리소스
     - Data                  // ScriptableObject, JSON, CSV 등 데이터
-- Plugins               // 외부 플러그인/라이브러리
-    - YarnSpinner       // Yarn Spinner 관련 파일 (설치 방식 따라 다를 수 있음)
+- Plugins                   // 외부 플러그인/라이브러리
+    - YarnSpinner           // Yarn Spinner 관련 파일 (설치 방식 따라 다를 수 있음)
 - Resources                 // 리소스 로드(Resources.Load) 방식 사용 시 배치
 - Animations                // 애니메이션 관련 파일
