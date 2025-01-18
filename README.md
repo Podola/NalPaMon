@@ -15,8 +15,8 @@ Night in the Woods처럼 2D 횡스크롤 이동, 역전재판/단간론파 식 �
 NalPaMonProject
 
 
-Assets                      // Unity 에셋 폴더
-- _Project                  // 실제 게임 관련 폴더(메인)
+Assets                    // Unity 에셋 폴더
+- _Project                // 실제 게임 관련 폴더(메인)
     - Scenes                // 유니티 씬 파일들
     - Scripts               // 스크립트
         - Managers          // 싱글턴 GameManager, SceneManager 등
