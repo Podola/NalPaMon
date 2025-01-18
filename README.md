@@ -29,7 +29,7 @@ Assets                      // Unity 에셋 폴더
     - Audio                 // 사운드 (BGM, SFX)
     - Dialogue              // Yarn Spinner .yarn 파일, 대화 리소스
     - Data                  // ScriptableObject, JSON, CSV 등 데이터
-    - Plugins               // 외부 플러그인/라이브러리
-        - YarnSpinner       // Yarn Spinner 관련 파일 (설치 방식 따라 다를 수 있음)
+- Plugins               // 외부 플러그인/라이브러리
+    - YarnSpinner       // Yarn Spinner 관련 파일 (설치 방식 따라 다를 수 있음)
 - Resources                 // 리소스 로드(Resources.Load) 방식 사용 시 배치
 - Animations                // 애니메이션 관련 파일
