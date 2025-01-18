@@ -11,11 +11,16 @@ Night in the Woods처럼 2D 횡스크롤 이동, 역전재판/단간론파 식 �
 - Yarn Spinner(또는 기타 대화 툴) 기반 분기 대화
 
 ## 프로젝트 구조
+
 NalPaMonProject
 ├── .git/                       // Git 버전 관리 폴더
+
 ├── .gitattributes              // Git LFS 추적 설정
+
 ├── .gitignore                  // Git에서 제외할 파일 목록
+
 ├── Packages/                   // Unity 패키지 관리 폴더
+
 ├── ProjectSettings/            // Unity 프로젝트 설정
 ├── Assets/                     // Unity 에셋 폴더
 │   ├── _Project                // 실제 게임 관련 폴더(메인)
