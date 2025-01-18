@@ -18,7 +18,7 @@ NalPaMonProject
 Assets                      // Unity 에셋 폴더
 - _Project                  // 실제 게임 관련 폴더(메인)
     - Scenes                // 유니티 씬 파일들
-    - cripts                // 스크립트
+    - Scripts                // 스크립트
         - Managers          // 싱글턴 GameManager, SceneManager 등
         - Player            // 플레이어 관련 (PlayerController 등)
         - NPC               // NPC 제어, AI, 대화 트리거 등
