@@ -9,6 +9,10 @@ public class NPCInteractable : Interactable
 
     public override void OnInteract()
     {
+        if (DialogueManager.instance.isInDialogue == true)
+        {
+            return;
+        }
         Debug.Log($"Player starts a conversation with {NPCName}");
 
         DialogueManager.instance.StartDialogue(dialogueLines);  

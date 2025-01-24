@@ -8,6 +8,7 @@ public class DialogueManager : MonoBehaviour
     public static DialogueManager instance {  get; private set; }
     public GameObject dialogueBox;
     public TextMeshProUGUI dialogueText;
+    public bool isInDialogue = false;
 
     private Queue<string> dialogueLines = new Queue<string>();
     private Coroutine typingCoroutine;
@@ -30,6 +31,7 @@ public class DialogueManager : MonoBehaviour
     public void StartDialogue(List<string> lines)
     {
         dialogueLines.Clear();
+        isInDialogue = true;    // Space, ESC 외 입력 무시
 
         foreach(string line in lines)
         {
@@ -61,6 +63,7 @@ public class DialogueManager : MonoBehaviour
     {
         dialogueBox.SetActive(false);
         dialogueText.text = "";
+        isInDialogue = false;
     }
 
     private IEnumerator TypeLine(string line)

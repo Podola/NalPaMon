@@ -17,6 +17,12 @@ public class PlayerController : MonoBehaviour
 
     private void Update()
     {
+        // NPC와 대화가 진행중이라면 이동 X
+        if ((DialogueManager.instance.isInDialogue == true))
+        {
+            return;
+        }
+
         HandleMove();
         HandleJump();
 

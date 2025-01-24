@@ -14,7 +14,6 @@ public class Interactable : MonoBehaviour
 
     public virtual void OnInteract()
     {
-
     }
 
     public void ShowIndicator()
