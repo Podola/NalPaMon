@@ -76,7 +76,7 @@ public class DialogueManager : MonoBehaviour
             yield return new WaitForSeconds(typingSpeed);
         }
 
-        // ÄÚ·çÆ¾ Á¾·á ½Ã ÂüÁ¶ ÇØÁ¦ Ã³¸®
+        // ì½”ë£¨í‹´ ì¢…ë£Œ ì‹œ ì°¸ì¡° í•´ì œ ì²˜ë¦¬
         typingCoroutine = null;
 
     }
